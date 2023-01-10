@@ -133,7 +133,7 @@ const animationTimeline = () => {
       0.05
     )
     .to(".fake-btn1", 0.1, {
-      background-image: url(./irene.jpg),
+      background-image: "url(./irene.jpg)",
     },
     "+=4")
     .to(
