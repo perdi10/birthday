@@ -24,17 +24,10 @@ window.addEventListener('load', () => {
 const animationTimeline = () => {
   // split chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
-  
-  const textBox1Chars = document.getElementsByClassName("hbd-chatbox1")[0];
-  
 
   const hbd = document.getElementsByClassName("wish-hbd")[0];
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
-    .split("")
-    .join("</span><span>")}</span`;
-  
-  textBox1Chars.innerHTML = `<span>${textBox1Chars.innerHTML
     .split("")
     .join("</span><span>")}</span`;
  
@@ -48,13 +41,7 @@ const animationTimeline = () => {
     rotationX: 5,
     skewX: "15deg"
   }
-  
-  const ideaTextTrans = {
-    opacity: 0,
-    y: -20,
-    rotationX: 5,
-    skewX: "15deg"
-  }
+ 
 
   const ideaTextTransLeave = {
     opacity: 0,
@@ -139,7 +126,7 @@ const animationTimeline = () => {
       opacity: 0,
     })
     .staggerTo(
-      ".hbd-chatbox1 span",
+      ".hbd-chatbox span",
       1.5, {
         visibility: "visible",
       },
@@ -157,6 +144,7 @@ const animationTimeline = () => {
         y: -150
       },
     "+=1")
+  
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-2", 0.7, ideaTextTrans)
