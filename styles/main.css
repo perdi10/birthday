@@ -292,11 +292,11 @@ body {
     right: 5px;
   }
   
-  .five .text-box {
+  .five .text-box1 {
     width: 90%;
   }
 
-  .text-box .fake-btn1 {
+  .text-box1 .fake-btn1 {
     bottom: -38px;
     right: 5px;
   }
