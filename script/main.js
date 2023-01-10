@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
 const animationTimeline = () => {
   // split chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
-  const textBoxChars = document.getElementsByClassName("hbd-chatbox1")[0];
+
   const hbd = document.getElementsByClassName("wish-hbd")[0];
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
@@ -125,7 +125,7 @@ const animationTimeline = () => {
       opacity: 0,
     })
     .staggerTo(
-      ".hbd-chatbox span1",
+      ".hbd-chatbox span",
       1.5, {
         visibility: "visible",
       },
