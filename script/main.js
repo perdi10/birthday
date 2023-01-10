@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
 // animation timeline
 const animationTimeline = () => {
   // split chars that needs to be animated individually
-  const textBoxChars = document.getElementsByClassName("hbd-chatbox")[1];
+  const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
 
   const hbd = document.getElementsByClassName("wish-hbd")[0];
 
