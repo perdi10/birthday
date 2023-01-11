@@ -89,11 +89,12 @@ const animationTimeline = () => {
         y: 10
       },
     "+=3")
+  
     .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0,
     })
-    .from(".fake-btn", 0.3, {
+    .from(".fake-btn .first-fake-btn", 0.3, {
       scale: 0.2,
       opacity: 0,
     })
@@ -104,7 +105,7 @@ const animationTimeline = () => {
       },
       0.05
     )
-    .to(".fake-btn", 0.1, {
+    .to(".fake-btn .first-fake-btn", 0.1, {
       backgroundColor: "rgb(127, 206, 248)",
     },
     "+=4")
@@ -121,7 +122,7 @@ const animationTimeline = () => {
       scale: 0.2,
       opacity: 0,
     })
-    .from(".fake-btn", 0.3, {
+    .from(".fake-btn .second-fake-btn", 0.3, {
       scale: 0.2,
       opacity: 0,
     })
@@ -132,12 +133,152 @@ const animationTimeline = () => {
       },
       0.05
     )
-    .to(".fake-btn", 0.1, {
+    .to(".fake-btn .second-fake-btn", 0.1, {
       backgroundColor: "rgb(127, 206, 248)",
     },
     "+=4")
     .to(
       ".five",
+      0.5, {
+        scale: 0.2,
+        opacity: 0,
+        y: -150
+      },
+    "+=1")
+  
+  .from(".six", 0.7, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .from(".fake-btn .third-fake-btn", 0.3, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .staggerTo(
+      ".hbd-chatbox span",
+      1.5, {
+        visibility: "visible",
+      },
+      0.05
+    )
+    .to(".fake-btn .third-fake-btn", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)",
+    },
+    "+=4")
+    .to(
+      ".six",
+      0.5, {
+        scale: 0.2,
+        opacity: 0,
+        y: -150
+      },
+    "+=1")
+  
+  .from(".seven", 0.7, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .from(".fake-btn .fourth-fake-btn", 0.3, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .staggerTo(
+      ".hbd-chatbox span",
+      1.5, {
+        visibility: "visible",
+      },
+      0.05
+    )
+    .to(".fake-btn .fourth-fake-btn", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)",
+    },
+    "+=4")
+    .to(
+      ".seven",
+      0.5, {
+        scale: 0.2,
+        opacity: 0,
+        y: -150
+      },
+    "+=1")
+  
+  .from(".eight", 0.7, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .from(".fake-btn .fifth-fake-btn", 0.3, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .staggerTo(
+      ".hbd-chatbox span",
+      1.5, {
+        visibility: "visible",
+      },
+      0.05
+    )
+    .to(".fake-btn .fifth-fake-btn", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)",
+    },
+    "+=4")
+    .to(
+      ".eight",
+      0.5, {
+        scale: 0.2,
+        opacity: 0,
+        y: -150
+      },
+    "+=1")
+  
+  .from(".nine", 0.7, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .from(".fake-btn .sixth-fake-btn", 0.3, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .staggerTo(
+      ".hbd-chatbox span",
+      1.5, {
+        visibility: "visible",
+      },
+      0.05
+    )
+    .to(".fake-btn .sixth-fake-btn", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)",
+    },
+    "+=4")
+    .to(
+      ".nine",
+      0.5, {
+        scale: 0.2,
+        opacity: 0,
+        y: -150
+      },
+    "+=1")
+  
+  .from(".ten", 0.7, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .from(".fake-btn .seventh-fake-btn", 0.3, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .staggerTo(
+      ".hbd-chatbox span",
+      1.5, {
+        visibility: "visible",
+      },
+      0.05
+    )
+    .to(".fake-btn .seventh-fake-btn", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)",
+    },
+    "+=4")
+    .to(
+      ".ten",
       0.5, {
         scale: 0.2,
         opacity: 0,
@@ -272,7 +413,7 @@ const animationTimeline = () => {
       "party"
     )
     .staggerTo(
-      ".nine svg",
+      ".fourteen svg",
       1.5, {
         visibility: "visible",
         opacity: 0,
@@ -282,7 +423,7 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .to(".seven", 0.5, {
+    .to(".twelve", 0.5, {
       opacity: 0,
       y: 30,
       zIndex: "-1",
