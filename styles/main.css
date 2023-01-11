@@ -41,7 +41,7 @@ body {
   font-size: 3rem;
 }
 
-.four .text-box {
+.four .text-box first-text {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -50,16 +50,16 @@ body {
   width: 600px;
 }
 
-.text-box p {
+.text-box first-text p {
   margin: 0;
   text-align: left;
 }
 
-.text-box span {
+.text-box first-text span {
   visibility: hidden;
 }
 
-.text-box .fake-btn {
+.text-box first-text .fake-btn first-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -69,7 +69,7 @@ body {
   right: 5px;
 }
 
-.five .text-box1 {
+.five .text-box sec-text {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -78,16 +78,16 @@ body {
   width: 600px;
 }
 
-.text-box1 p {
+.text-box sec-text p {
   margin: 0;
   text-align: left;
 }
 
-.text-box1 span {
+.text-box sec-text span {
   visibility: hidden;
 }
 
-.text-box1 .fake-btn1 {
+.text-box sec-text .fake-btn sec-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
