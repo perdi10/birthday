@@ -41,7 +41,7 @@ body {
   font-size: 3rem;
 }
 
-.four .text-box {
+.four .text-box .first-text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -50,16 +50,16 @@ body {
   width: 600px;
 }
 
-.text-box p {
+.text-box .first-text-box p {
   margin: 0;
   text-align: left;
 }
 
-.text-box span {
+.text-box .first-text-box span {
   visibility: hidden;
 }
 
-.text-box .fake-btn {
+.text-box .first-text-box .fake-btn .first-fake-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -69,7 +69,7 @@ body {
   right: 5px;
 }
 
-.five .text-box {
+.five .text-box .second-text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -78,16 +78,16 @@ body {
   width: 600px;
 }
 
-.text-box p {
+.text-box .second-text-box p {
   margin: 0;
   text-align: left;
 }
 
-.text-box span {
+.text-box .second-text-box span {
   visibility: hidden;
 }
 
-.text-box .fake-btn {
+.text-box .second-text-box .fake-btn .second-fake-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -97,7 +97,147 @@ body {
   right: 5px;
 }
 
-.six p {
+.six .text-box .third-text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box .third-text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box .third-text-box span {
+  visibility: hidden;
+}
+
+.text-box .third-text-box .fake-btn .third-fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.seven .text-box .fourth-text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box .fourth-text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box .fourth-text-box span {
+  visibility: hidden;
+}
+
+.text-box .fourth-text-box .fake-btn .fourth-fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.eight .text-box .fifth-text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box .fifth-text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box .fifth-text-box span {
+  visibility: hidden;
+}
+
+.text-box .fifth-text-box .fake-btn .fifth-fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.nine .text-box .sixth-text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box .sixth-text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box .sixth-text-box span {
+  visibility: hidden;
+}
+
+.text-box .sixth-text-box .fake-btn .sixth-fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.ten .text-box .seventh-text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box .seventh-text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box .seventh-text-box span {
+  visibility: hidden;
+}
+
+.text-box .seventh-text-box .fake-btn .seventh-fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.eleven p {
   font-size: 2rem;
   left: 0;
   position: absolute;
@@ -110,7 +250,7 @@ body {
   padding: 3px 5px;
 }
 
-.six .idea-5 {
+.eleven .idea-5 {
   font-size: 4rem;
 }
 
@@ -123,20 +263,20 @@ body {
 }
 
 
-.seven {
+.twelve {
   position: relative;
   top: 10vh;
   z-index: 1;
 }
 
-.seven img {
+.twelve img {
   display: inline-block;
   height: 350px;
   max-width: 100%;
   /* height: auto; */
 }
 
-.seven .hat {
+.twelve .hat {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
@@ -161,14 +301,14 @@ body {
   left: 30%;
 }
 
-.eight, .eight {
+.thirteen, .eight {
   height: 100vh;
   position: fixed;
   top: 0;
   width: 100vw;
 }
 
-.nine svg {
+.fourteen svg {
   left: 0;
   position: absolute;
   top: 0;
@@ -177,55 +317,55 @@ body {
   z-index: -1;
 }
 
-.nine svg:nth-child(1) {
+.fourteen svg:nth-child(1) {
   fill: #bd6ecf;
   left: 5vw;
   top: 7vh;
 }
 
-.nine svg:nth-child(2) {
+.fourteen svg:nth-child(2) {
   fill: #7dd175;
   left: 35vw;
   top: 23vh;
 }
 
-.nine svg:nth-child(3) {
+.fourteen svg:nth-child(3) {
   fill: #349d8b;
   left: 23vw;
   top: 33vh;
 }
 
-.nine svg:nth-child(4) {
+.fourteen svg:nth-child(4) {
   fill: #347a9d;
   left: 57vw;
   top: 43vh;
 }
 
-.nine svg:nth-child(5) {
+.fourteen svg:nth-child(5) {
   fill: #c66053;
   left: 7vw;
   top: 68vh;
 }
 
-.nine svg:nth-child(6) {
+.fourteen svg:nth-child(6) {
   fill: #bfaa40;
   left: 77vw;
   top: 42vh;
 }
 
-.nine svg:nth-child(7) {
+.fourteen svg:nth-child(7) {
   fill: #e3bae8;
   left: 83vw;
   top: 68vh;
 }
 
-.nine svg:nth-child(8) {
+.fourteen svg:nth-child(8) {
   fill: #8762cb;
   left: 37vw;
   top: 86vh;
 }
 
-.nine svg:nth-child(9) {
+.fourteen svg:nth-child(9) {
   fill: #9a90da;
   left: 87vw;
   top: 94vh;
@@ -243,7 +383,7 @@ body {
   margin: 10px 0 0;
 }
 
-.ten p {
+.fifteen p {
   font-size: 2rem;
   font-weight: lighter;
 }
@@ -283,20 +423,65 @@ body {
     width: 90%;
   }
 
-  .four .text-box {
+  .four .text-box .first-text-box {
     width: 90%;
   }
 
-  .text-box .fake-btn {
+  .text-box .first-text-box .fake-btn .first-fake-btn {
     bottom: -38px;
     right: 5px;
   }
   
-  .five .text-box1 {
+ .five .text-box .second-text-box {
     width: 90%;
   }
 
-  .text-box1 .fake-btn1 {
+  .text-box .second-text-box .fake-btn .second-fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .six .text-box .third-text-box {
+    width: 90%;
+  }
+
+  .text-box .third-text-box .fake-btn .third-fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .seven .text-box .fourth-text-box {
+    width: 90%;
+  }
+
+  .text-box .fourth-text-box .fake-btn .fourth-fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .eight .text-box .fifth-text-box {
+    width: 90%;
+  }
+
+  .text-box .fifth-text-box .fake-btn .fifth-fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .nine .text-box .sixth-text-box {
+    width: 90%;
+  }
+
+  .text-box .sixth-text-box .fake-btn .sixth-fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .ten .text-box .seventh-text-box {
+    width: 90%;
+  }
+
+  .text-box .seventh-text-box .fake-btn .seventh-fake-btn {
     bottom: -38px;
     right: 5px;
   }
@@ -309,7 +494,7 @@ body {
     font-size: 10rem;
   }
 
-  .seven .hat {
+  .twelve .hat {
     /* top: -20px; */
     width: 50px;
   }
@@ -322,7 +507,7 @@ body {
     font-size: 1.4rem;
   }
 
-  .ten p {
+  .fifteen p {
     font-size: 1.5rem;
     font-weight: lighter;
   }
