@@ -41,7 +41,7 @@ body {
   font-size: 3rem;
 }
 
-.four .text-box .first-text-box {
+.four .text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -50,16 +50,16 @@ body {
   width: 600px;
 }
 
-.text-box .first-text-box p {
+.text-box p {
   margin: 0;
   text-align: left;
 }
 
-.text-box .first-text-box span {
+.text-box span {
   visibility: hidden;
 }
 
-.text-box .first-text-box .fake-btn .first-fake-btn {
+.text-box .fake-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -69,7 +69,7 @@ body {
   right: 5px;
 }
 
-.five .text-box .second-text-box {
+.five .text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -78,16 +78,16 @@ body {
   width: 600px;
 }
 
-.text-box .second-text-box p {
+.text-box p {
   margin: 0;
   text-align: left;
 }
 
-.text-box .second-text-box span {
+.text-box span {
   visibility: hidden;
 }
 
-.text-box .second-text-box .fake-btn .second-fake-btn {
+.text-box .fake-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -97,7 +97,7 @@ body {
   right: 5px;
 }
 
-.six .text-box .third-text-box {
+.six .text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -106,16 +106,16 @@ body {
   width: 600px;
 }
 
-.text-box .third-text-box p {
+.text-box p {
   margin: 0;
   text-align: left;
 }
 
-.text-box .third-text-box span {
+.text-box  span {
   visibility: hidden;
 }
 
-.text-box .third-text-box .fake-btn .third-fake-btn {
+.text-box  .fake-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -125,7 +125,7 @@ body {
   right: 5px;
 }
 
-.seven .text-box .fourth-text-box {
+.seven .text-box  {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -134,16 +134,16 @@ body {
   width: 600px;
 }
 
-.text-box .fourth-text-box p {
+.text-box  p {
   margin: 0;
   text-align: left;
 }
 
-.text-box .fourth-text-box span {
+.text-box span {
   visibility: hidden;
 }
 
-.text-box .fourth-text-box .fake-btn .fourth-fake-btn {
+.text-box  .fake-btn {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -153,7 +153,7 @@ body {
   right: 5px;
 }
 
-.eight .text-box .fifth-text-box {
+.eight .text-box  {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -162,16 +162,16 @@ body {
   width: 600px;
 }
 
-.text-box .fifth-text-box p {
+.text-box p {
   margin: 0;
   text-align: left;
 }
 
-.text-box .fifth-text-box span {
+.text-box span {
   visibility: hidden;
 }
 
-.text-box .fifth-text-box .fake-btn .fifth-fake-btn {
+.text-box  .fake-btn  {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -181,7 +181,7 @@ body {
   right: 5px;
 }
 
-.nine .text-box .sixth-text-box {
+.nine .text-box  {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -190,16 +190,16 @@ body {
   width: 600px;
 }
 
-.text-box .sixth-text-box p {
+.text-box  p {
   margin: 0;
   text-align: left;
 }
 
-.text-box .sixth-text-box span {
+.text-box span {
   visibility: hidden;
 }
 
-.text-box .sixth-text-box .fake-btn .sixth-fake-btn {
+.text-box .fake-btn  {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -209,7 +209,7 @@ body {
   right: 5px;
 }
 
-.ten .text-box .seventh-text-box {
+.ten .text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
@@ -218,16 +218,16 @@ body {
   width: 600px;
 }
 
-.text-box .seventh-text-box p {
+.text-box p {
   margin: 0;
   text-align: left;
 }
 
-.text-box .seventh-text-box span {
+.text-box  span {
   visibility: hidden;
 }
 
-.text-box .seventh-text-box .fake-btn .seventh-fake-btn {
+.text-box  .fake-btn  {
   background-color: rgb(21, 161, 237);
   border-radius: 3px;
   bottom: -50px;
@@ -423,65 +423,65 @@ body {
     width: 90%;
   }
 
-  .four .text-box .first-text-box {
+  .four .text-box  {
     width: 90%;
   }
 
-  .text-box .first-text-box .fake-btn .first-fake-btn {
+  .text-box  .fake-btn  {
     bottom: -38px;
     right: 5px;
   }
   
- .five .text-box .second-text-box {
+ .five .text-box {
     width: 90%;
   }
 
-  .text-box .second-text-box .fake-btn .second-fake-btn {
+  .text-box  .fake-btn {
     bottom: -38px;
     right: 5px;
   }
   
-  .six .text-box .third-text-box {
+  .six .text-box  {
     width: 90%;
   }
 
-  .text-box .third-text-box .fake-btn .third-fake-btn {
+  .text-box  .fake-btn {
     bottom: -38px;
     right: 5px;
   }
   
-  .seven .text-box .fourth-text-box {
+  .seven .text-box  {
     width: 90%;
   }
 
-  .text-box .fourth-text-box .fake-btn .fourth-fake-btn {
+  .text-box  .fake-btn  {
     bottom: -38px;
     right: 5px;
   }
   
-  .eight .text-box .fifth-text-box {
+  .eight .text-box  {
     width: 90%;
   }
 
-  .text-box .fifth-text-box .fake-btn .fifth-fake-btn {
+  .text-box  .fake-btn  {
     bottom: -38px;
     right: 5px;
   }
   
-  .nine .text-box .sixth-text-box {
+  .nine .text-box  {
     width: 90%;
   }
 
-  .text-box .sixth-text-box .fake-btn .sixth-fake-btn {
+  .text-box  .fake-btn  {
     bottom: -38px;
     right: 5px;
   }
   
-  .ten .text-box .seventh-text-box {
+  .ten .text-box  {
     width: 90%;
   }
 
-  .text-box .seventh-text-box .fake-btn .seventh-fake-btn {
+  .text-box  .fake-btn  {
     bottom: -38px;
     right: 5px;
   }
