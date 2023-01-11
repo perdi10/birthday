@@ -93,18 +93,18 @@ const animationTimeline = () => {
       scale: 0.2,
       opacity: 0,
     })
-    .from(".fake-btn first-btn", 0.3, {
+    .from(".fake-btn", 0.3, {
       scale: 0.2,
       opacity: 0,
     })
     .staggerTo(
-      ".hbd-chatbox first-text span",
+      ".hbd-chatbox span",
       1.5, {
         visibility: "visible",
       },
       0.05
     )
-    .to(".fake-btn first-btn", 0.1, {
+    .to(".fake-btn", 0.1, {
       backgroundColor: "rgb(127, 206, 248)",
     },
     "+=4")
@@ -121,18 +121,18 @@ const animationTimeline = () => {
       scale: 0.2,
       opacity: 0,
     })
-    .from(".fake-btn sec-btn", 0.3, {
+    .from(".fake-btn", 0.3, {
       scale: 0.2,
       opacity: 0,
     })
     .staggerTo(
-      ".hbd-chatbox sec-text span",
+      ".hbd-chatbox span",
       1.5, {
         visibility: "visible",
       },
       0.05
     )
-    .to(".fake-btn sec-btn", 0.1, {
+    .to(".fake-btn", 0.1, {
       backgroundColor: "rgb(127, 206, 248)",
     },
     "+=4")
